@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Auto Publish
-        uses: WDSEGA/auto-publish-blog@v1
+        uses: your-username/auto-publish-blog@v1
         with:
           devto-api-key: ${{ secrets.DEVTO_API_KEY }}
           blog-url: 'https://your-blog-url.com'
@@ -50,7 +50,7 @@ jobs:
 
 ```yaml
 - name: Auto Publish
-  uses: WDSEGA/auto-publish-blog@v1
+  uses: your-username/auto-publish-blog@v1
   with:
     posts-path: './_posts'
     devto-api-key: ${{ secrets.DEVTO_API_KEY }}
@@ -136,5 +136,5 @@ MIT License - free for personal and commercial use.
 
 ## Support
 
-- [Report Issues](https://github.com/WDSEGA/auto-publish-blog/issues)
-- [Discussions](https://github.com/WDSEGA/auto-publish-blog/discussions)
+- [Report Issues](https://github.com/your-username/auto-publish-blog/issues)
+- [Discussions](https://github.com/your-username/auto-publish-blog/discussions)
