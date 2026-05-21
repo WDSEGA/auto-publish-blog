@@ -42,7 +42,7 @@ jobs:
         uses: WDSEGA/auto-publish-blog@v1
         with:
           devto-api-key: ${{ secrets.DEVTO_API_KEY }}
-          blog-url: 'https://yourblog.com'
+          blog-url: 'https://your-blog-url.com'
           content-mode: 'summary'
 ```
 
@@ -56,7 +56,7 @@ jobs:
     devto-api-key: ${{ secrets.DEVTO_API_KEY }}
     devto-enabled: 'true'
     content-mode: 'summary'
-    blog-url: 'https://yourblog.com'
+    blog-url: 'https://your-blog-url.com'
     tags: 'programming,technology,ai'
     dry-run: 'false'
 ```
@@ -89,7 +89,7 @@ jobs:
 Example summary footer:
 ```
 ---
-> 📢 This is a summary version. Read the full article with exclusive tools and deep analysis at [Your Blog](https://yourblog.com)!
+> 📢 This is a summary version. Read the full article with exclusive tools and deep analysis at [Your Blog](https://your-blog-url.com)!
 ```
 
 ## How It Works

@@ -1,6 +1,6 @@
 name: 'Auto Publish Blog'
 description: 'Automatically publish Markdown blog posts to multiple platforms including Dev.to, Hashnode, and Medium. Supports cover images, SEO optimization, and content differentiation.'
-author: 'WDSEGA'
+author: 'Your Name'
 
 inputs:
   posts-path:
